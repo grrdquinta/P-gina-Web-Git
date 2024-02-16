@@ -1,11 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stryle.css">
+    <title>Perfil 1 - Modulo 1</title>
 </head>
+
 <body>
-    
+
+    <head>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Empresas
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="./páginas/Empresas.html">Empresas Salvadoreñas</a></li>
+                                    <li><a class="dropdown-item" href="./páginas/Empresas2.html">Empresas Internacionales</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </head>
+    <br>
+
+    <div class="header">
+
+        <!--Content before waves-->
+        <div class="inner-header flex">
+        <!--Just the logo.. Don't mind this-->
+        
+        <h1>Emprendedores del área tecnologica</h1>
+        </div>
+        
+        <!--Waves Container-->
+        <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>
+        </div>
+        <!--Waves end-->
+        
+        </div>
+
+
+    <section>
+        
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://img.welt.de/img/wirtschaft/webwelt/mobile101262566/6662509017-ci102l-w1024/stevejobs-2005-DW-Vermischtes-San-Francisco-jpg.jpg" 
+                        alt="Hollywood Sign on The Hill" sizes="20px"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">
+                            Steve Jobs fue un visionario empresario y cofundador de Apple Inc., una de las compañías de tecnología más 
+                            influyentes y exitosas del mundo.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Apple Inc.: Fundada por Steve Jobs, Steve Wozniak y Ronald Wayne en 1976, Apple se ha convertido en 
+                                    un gigante tecnológico conocido por productos icónicos como el iPhone, el iPad, la Mac y el Apple 
+                                    Watch. Jobs fue CEO de la compañía en varias etapas de su historia y desempeñó un papel fundamental 
+                                    en la dirección estratégica y el diseño de productos de Apple.
+                                </li>
+                                <br>
+                                <li>
+                                    Pixar Animation Studios: Jobs adquirió Pixar en 1986 cuando era parte de Lucasfilm, convirtiéndola en 
+                                    una de las principales productoras de películas animadas por ordenador. Pixar es conocida por éxitos
+                                    de taquilla como "Toy Story", "Buscando a Nemo" y "Los Increíbles".
+                                </li>
+                                <br>
+                                <li>
+                                    NeXT Inc.: Después de dejar Apple en 1985, Jobs fundó NeXT Inc., una compañía de desarrollo de 
+                                    computadoras y software. NeXT se destacó por su enfoque en el diseño de hardware y software de 
+                                    vanguardia.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg"
+                        alt="Palm Springs Road" sizes="20px"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text">
+                            Bill Gates es un empresario, filántropo y desarrollador de software estadounidense, 
+                            reconocido principalmente como el cofundador de Microsoft Corporation, una de las compañías de tecnología
+                             más grandes y exitosas del mundo.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Microsoft Corporation: Fundada por Bill Gates y Paul Allen en 1975, Microsoft se convirtió en un 
+                                    líder mundial en software, especialmente conocido por su sistema operativo Windows, la suite de 
+                                    productividad Office y la plataforma en la nube Azure.
+                                </li>
+                                <br>
+                                <li>
+                                    Cascade Investment: Esta es una firma de inversión privada gestionada por Bill Gates. Cascade 
+                                    Investment se centra en una amplia gama de inversiones, incluidas acciones, fondos de capital 
+                                    privado y de riesgo, bienes raíces y otros activos.
+                                </li>
+                                <br>
+                                <li>
+                                    TerraPower: Fundada por Gates, TerraPower es una empresa de energía nuclear que desarrolla 
+                                    tecnologías de reactores nucleares avanzados, incluidos los reactores de neutrones rápidos 
+                                    refrigerados por sodio. El objetivo de TerraPower es proporcionar una fuente de energía limpia 
+                                    y segura para el futuro.
+                                </li>
+                                <br>
+                                <li>
+                                    Breakthrough Energy: Bill Gates es cofundador de Breakthrough Energy, una coalición de inversores, 
+                                    empresas y gobiernos comprometidos con el desarrollo y la implementación de tecnologías energéticas
+                                    innovadoras y sostenibles para combatir el cambio climático.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://actiosoftware.com/wp-content/uploads/2021/08/Captura-de-tela-2021-08-31-194746.jpg"
+                        alt="Los Angeles Skyscrapers" />
+                    <div class="card-body">
+                        <h5 class="card-title">Jeff Bezos</h5>
+                        <p class="card-text">Jeff Bezos es un empresario y magnate estadounidense, conocido principalmente por ser 
+                            el fundador y CEO de Amazon.com, una de las compañías más grandes y exitosas del mundo en el comercio 
+                            electrónico y la computación en la nube.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Amazon.com: Fundada por Jeff Bezos en 1994, Amazon comenzó como una tienda en línea de libros y 
+                                    rápidamente se expandió para vender una amplia variedad de productos, desde electrónica hasta 
+                                    productos de consumo y servicios en la nube. Amazon se ha convertido en el mayor minorista en línea 
+                                    del mundo y una de las compañías más valiosas. 
+                                </li>
+                                <br>
+                                <li>
+                                    Blue Origin: Jeff Bezos fundó Blue Origin en 2000 con el objetivo de desarrollar tecnología para 
+                                    vuelos espaciales reutilizables. La empresa se centra en la exploración espacial y el turismo 
+                                    espacial, con la visión de permitir que las personas vivan y trabajen en el espacio. 
+                                </li>
+                                <br>
+                                <li>
+                                    The Washington Post: En 2013, Jeff Bezos adquirió The Washington Post, uno de los periódicos más 
+                                    influyentes de Estados Unidos. Aunque Bezos no está involucrado en la operación diaria del periódico, 
+                                    su compra ha llevado a una revitalización del medio y una mayor inversión en tecnología y periodismo 
+                                    digital.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg/800px-Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg" 
+                        alt="Skyscrapers" />
+                    <div class="card-body">
+                        <h5 class="card-title">Larry Page</h5>
+                        <p class="card-text">
+                            Larry Page es un empresario y líder tecnológico estadounidense, reconocido principalmente por ser el 
+                            cofundador de Google junto con Sergey Brin.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Google (ahora Alphabet Inc.): Larry Page y Sergey Brin fundaron Google en 1998 como un motor de 
+                                    búsqueda revolucionario que organizaba la información en línea de manera eficiente y precisa. 
+                                    Google rápidamente se convirtió en el motor de búsqueda más utilizado en el mundo y ha diversificado 
+                                    sus servicios para incluir productos como Gmail, Google Maps, Google Drive, YouTube y Android, 
+                                    entre otros. 
+                                </li>
+                                <br>
+                                <li>
+                                    Alphabet Inc.: Después de la reestructuración, Alphabet Inc. se convirtió en la empresa matriz de 
+                                    Google y otras subsidiarias. Bajo Alphabet, Google sigue siendo la principal fuente de ingresos, 
+                                    pero la empresa también incluye otras divisiones, como Calico (dedicada a la investigación sobre 
+                                    la longevidad humana), Verily (focada en la salud y las ciencias biológicas), Waymo 
+                                    (desarrollo de vehículos autónomos) y DeepMind (inteligencia artificial), entre otras. 
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://observer.com/wp-content/uploads/sites/2/2023/04/GettyImages-1388091392-e1682435675306.jpg?quality=80" 
+                        alt="Hollywood Sign on The Hill" />
+                    <div class="card-body">
+                        <h5 class="card-title">Sergey Brin</h5>
+                        <p class="card-text">
+                            Sergey Brin es un empresario y líder tecnológico estadounidense, reconocido principalmente por ser el 
+                            cofundador de Google junto con Larry Page.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Google (ahora Alphabet Inc.): Larry Page y Sergey Brin fundaron Google en 1998 como un motor de 
+                                    búsqueda revolucionario que organizaba la información en línea de manera eficiente y precisa. 
+                                    Google rápidamente se convirtió en el motor de búsqueda más utilizado en el mundo y ha diversificado 
+                                    sus servicios para incluir productos como Gmail, Google Maps, Google Drive, YouTube y Android, 
+                                    entre otros. 
+                                </li>
+                                <br>
+                                <li>
+                                    Alphabet Inc.: Después de la reestructuración, Alphabet Inc. se convirtió en la empresa matriz de 
+                                    Google y otras subsidiarias. Bajo Alphabet, Google sigue siendo la principal fuente de ingresos, 
+                                    pero la empresa también incluye otras divisiones, como Calico (dedicada a la investigación sobre 
+                                    la longevidad humana), Verily (focada en la salud y las ciencias biológicas), Waymo 
+                                    (desarrollo de vehículos autónomos) y DeepMind (inteligencia artificial), entre otras. 
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.forbesindia.com/media/images/2023/Nov/img_223547_cut057markzuckerbergbyguerinblaskforforbes_89171_final_bg.jpg" 
+                        alt="Palm Springs Road" />
+                    <div class="card-body">
+                        <h5 class="card-title">Mark Zuckerberg</h5>
+                        <p class="card-text">
+                            Mark Zuckerberg es un empresario y programador informático estadounidense, conocido principalmente por ser 
+                            el cofundador y CEO de Facebook, la red social más grande y utilizada del mundo. 
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Facebook, Inc.: Mark Zuckerberg fundó Facebook en 2004 mientras era estudiante de la Universidad de 
+                                    Harvard. Lo que comenzó como una red social para estudiantes universitarios pronto se expandió para
+                                    incluir a usuarios de todo el mundo. Facebook permite a las personas conectarse, compartir contenido, 
+                                    comunicarse y descubrir información relevante. La plataforma también ha adquirido otras redes sociales 
+                                    populares como Instagram y WhatsApp. 
+                                </li>
+                                <br>
+                                <li>
+                                    Meta Platforms, Inc. (anteriormente Facebook, Inc.): En 2021, Facebook cambió su nombre corporativo 
+                                    a Meta Platforms, Inc. para reflejar su enfoque en la realidad virtual y aumentada. Bajo la marca 
+                                    Meta, Zuckerberg busca llevar la interacción social a un nivel completamente nuevo mediante el 
+                                    desarrollo de experiencias de realidad virtual y aumentada, incluida la plataforma Horizon Worlds y 
+                                    los dispositivos Oculus.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://content.fortune.com/wp-content/uploads/2022/12/GettyImages-937997048-e1671790077972.jpeg" 
+                        alt="Los Angeles Skyscrapers" />
+                    <div class="card-body">
+                        <h5 class="card-title">Pony Ma</h5>
+                        <p class="card-text">Pony Ma, cuyo nombre real es Ma Huateng, es un empresario chino y cofundador de Tencent 
+                            Holdings Limited, una de las mayores empresas de tecnología de China y del mundo. 
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Tencent Holdings Limited: Pony Ma cofundó Tencent en 1998 junto con otros cuatro empresarios. 
+                                    Tencent se ha convertido en una de las empresas de tecnología más grandes del mundo, conocida 
+                                    por sus servicios de Internet y entretenimiento. Algunos de los productos y servicios más 
+                                    destacados de Tencent incluyen la aplicación de mensajería WeChat, la plataforma de juegos en 
+                                    línea Tencent Games, el portal de noticias Tencent News y la plataforma de redes sociales QQ.
+                                </li>
+                                <br>
+                                <li>
+                                    WeChat: WeChat, también conocido como Weixin en China, es una aplicación de mensajería y 
+                                    redes sociales desarrollada por Tencent. WeChat ofrece una amplia gama de servicios, que van desde 
+                                    mensajería instantánea hasta pagos móviles, juegos en línea, servicios de taxi y mucho más. 
+                                    Es una de las aplicaciones móviles más populares en China y tiene una gran base de usuarios en todo 
+                                    el mundo.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://www.hkubs.hku.hk/wp-content/uploads/fly-images/185695/Jack-ma-2-e1682044969845-940x1000-ct.jpg" 
+                        alt="Skyscrapers" />
+                    <div class="card-body">
+                        <h5 class="card-title">Jack Ma</h5>
+                        <p class="card-text">
+                            Jack Ma, cuyo nombre real es Ma Yun, es un empresario chino y fundador del gigante del comercio electrónico 
+                            Alibaba Group.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Alibaba Group: Jack Ma fundó Alibaba en 1999 en Hangzhou, China, con el objetivo de crear una 
+                                    plataforma en línea que conectara a fabricantes chinos con compradores extranjeros. Lo que comenzó 
+                                    como un mercado en línea para facilitar el comercio internacional ha crecido hasta convertirse en 
+                                    una de las empresas de tecnología más grandes del mundo.
+                                </li>
+                                <br>
+                                <li>
+                                    Ant Group (anteriormente Ant Financial): Jack Ma fundó Ant Group en 2004 como una subsidiaria de Alibaba, 
+                                    con el objetivo de proporcionar servicios financieros digitales innovadores. Ant Group es conocida por su 
+                                    plataforma de pagos en línea Alipay, que se ha convertido en una de las formas más populares de pago en China.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Larry_Ellison_picture.png" 
+                        alt="Hollywood Sign on The Hill" />
+                    <div class="card-body">
+                        <h5 class="card-title">Larry Ellison</h5>
+                        <p class="card-text">
+                            Larry Ellison es un empresario y magnate estadounidense, conocido principalmente por ser el cofundador y 
+                            presidente de Oracle Corporation, una de las compañías de tecnología más grandes del mundo.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Oracle Corporation: Larry Ellison cofundó Oracle Corporation en 1977 con Bob Miner y Ed Oates. 
+                                    Oracle es una empresa líder en el desarrollo y comercialización de software y hardware para empresas. 
+                                    Su producto principal es la base de datos Oracle, que se utiliza ampliamente en aplicaciones empresariales 
+                                    y sistemas de gestión de datos en todo el mundo. Oracle también ofrece una amplia gama de productos y 
+                                    servicios relacionados con la gestión de la información, la computación en la nube, el análisis de 
+                                    datos y la inteligencia artificial.
+                                </li>
+                                <br>
+                                <li>
+                                    NetSuite: Larry Ellison fue uno de los principales inversores en NetSuite, una empresa de software 
+                                    de gestión empresarial en la nube. NetSuite ofrece soluciones integradas para la gestión de finanzas, 
+                                    contabilidad, gestión de clientes, inventario y comercio electrónico para empresas de todos los tamaños. 
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://assets.bizclikmedia.net/1336/ab917af4101bf7549bde74ccc954bbe4:ff367d0e277a6286df0b53a12a284637/dell5.jpg" 
+                        alt="Palm Springs Road" />
+                    <div class="card-body">
+                        <h5 class="card-title">Michael Dell</h5>
+                        <p class="card-text">
+                            Michael Dell es un empresario estadounidense y el fundador de Dell Technologies, una de las mayores 
+                            empresas de tecnología del mundo.
+                        </p>
+                        <p>
+                            algunas de las empresas en las que ha estado involucrado:
+                            <ul>
+                                <li>
+                                    Dell Technologies: Michael Dell fundó Dell Computer Corporation en 1984, mientras aún era estudiante 
+                                    universitario en la Universidad de Texas en Austin. Comenzó la empresa vendiendo computadoras 
+                                    personales directamente a los consumidores, eliminando así los intermediarios y reduciendo los costos. 
+                                    Con el tiempo, Dell se convirtió en uno de los principales fabricantes de computadoras del mundo, 
+                                    ofreciendo una amplia gama de productos y servicios de tecnología, incluyendo servidores, almacenamiento, 
+                                    redes, software y servicios relacionados con la infraestructura de TI.
+                                </li>
+                                <br>
+                                <li>
+                                    VMware, Inc.: Dell Technologies adquirió VMware, Inc., una empresa líder en virtualización de infraestructura 
+                                    de TI, en 2015. VMware proporciona software que permite a las empresas virtualizar sus infraestructuras de 
+                                    servidores, almacenamiento y redes, lo que les permite reducir costos, aumentar la eficiencia y mejorar la 
+                                    flexibilidad y la agilidad de sus operaciones de TI.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
 </body>
+
 </html>
